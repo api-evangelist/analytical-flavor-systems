@@ -1,8 +1,23 @@
 aid: analytical-flavor-systems
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/analytical-flavor-systems.png
 name: Analytical Flavor Systems
-description: Analytical Flavor Systems is a company surfaced as a portfolio company of techstars and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Analytical Flavor Systems is the startup behind Gastrograph AI, a sensory-science and machine-learning
+  platform that modeled human flavor, aroma, and texture perception to help food and beverage companies predict
+  consumer preference, benchmark products, and optimize formulations before physical prototyping. It was a
+  Techstars-backed portfolio company. Its gastrograph.com domain now 301-redirects to NielsenIQ, which acquired
+  the technology and folded it into its BASES AI Product Developer solution; no independent public API, developer
+  portal, or SDK surface remains.
 url: https://raw.githubusercontent.com/api-evangelist/analytical-flavor-systems/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +25,19 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: nielseniq
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Food and Beverage
+- Sensory Analytics
+- Consumer Insights
+- Flavor
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +45,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/analytical-flavor-systems-domain-security.yml
 - type: Website
   url: https://gastrograph.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
