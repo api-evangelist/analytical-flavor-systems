@@ -44,7 +44,7 @@ modified: '2026-07-17'
 tags:
 - Company
 - Artificial Intelligence
-- Machine-Learning
+- Machine Learning
 - Food and Beverage
 - Sensory Analytics
 - Consumer Insights
@@ -57,6 +57,7 @@ tags_raw:
 - Sensory Analytics
 - Consumer Insights
 - Flavor
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
